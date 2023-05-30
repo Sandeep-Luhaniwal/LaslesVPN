@@ -1,0 +1,285 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap');
+
+/* font-family: 'Rubik', sans-serif; */
+:root {
+    --ff-primary: 'Rubik', sans-serif;
+
+    --fs-xxxl: 32px;
+    --fs-xxl: 24px;
+    --fs-xl: 20px;
+    --fs-lg: 16px;
+    --fs-md: 16px;
+    --fs-sm: 16px;
+    --fs-xs: 14px;
+
+    --extraBold: 800;
+    --bold: 700;
+    --semiBold: 600;
+    --medium: 500;
+    --regular: 400;
+
+    --primary-color: #F53838;
+    --secondary-color: #0D1025;
+    --white-color: #ffffff;
+    --black-color: #0B132A;
+    --dark-color: #4F5665;
+    --danger-color: #F53855;
+    --light-color: #FFECEC;
+    --border-color: #EEEFF2;
+    --info-color: #FBFBFB;
+    --plan-border: #DDDDDD;
+    --sucess-color: #DDE0E4;
+    --footer-color: #F8F8F8;
+    --page-footer-color: #AFB5C0;
+}
+
+.page-footer {
+    color: var(--page-footer-color) !important;
+}
+
+.pageLogo {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-lg);
+    font-weight: var(--medium);
+    color: var(--black-color);
+}
+
+.bg-footer {
+    background: var(--footer-color);
+}
+
+.bg-liner {
+    background: red;
+}
+
+.bg-liner-1 {
+    background: linear-gradient(#FFFFFF 50%, #F8F8F8 50%);
+}
+
+.bg-linear-3 {
+    background: linear-gradient(#FDFDFD 10%, #FEFEFE 40%, #FFFFFF 45%);
+}
+
+.bg-linear-2 {
+    background: linear-gradient(#FBFBFB 35%, #FCFCFC 34%, #FDFDFD 36%);
+}
+
+.dark-color {
+    color: var(--dark-color) !important;
+}
+
+.black-color {
+    color: var(--black-color) !important;
+}
+
+.f-w-bold {
+    font-weight: var(--bold) !important;
+}
+
+.f-w-semiBold {
+    font-weight: var(--semiBold) !important;
+}
+
+.f-w-medium {
+    font-weight: var(--medium) !important;
+}
+
+.f-w-regular {
+    font-weight: var(--regular) !important;
+}
+
+.bg-color {
+    background-color: var(--white-color) !important;
+}
+
+.bg-info-color {
+    background-color: var(--info-color) !important;
+}
+
+.bg-white {
+    background-color: var(--white-color) !important;
+}
+
+.mainHeading {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-xxxl);
+    font-weight: var(--medium);
+    color: var(--black-color);
+}
+
+.paragraph {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--regular);
+    color: var(--dark-color);
+}
+
+.btn-inline {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--medium);
+    color: var(--black-color);
+    background-color: var(--white-color);
+}
+
+.btn-inline:hover {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--medium);
+    color: var(--danger-color);
+    background-color: var(--white-color);
+}
+
+.mainBtn {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--medium);
+    color: var(--white-color);
+    background-color: var(--danger-color);
+    border: 1px solid var(--danger-color);
+}
+
+.mainBtn:hover {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--medium);
+    color: var(--danger-color);
+    background-color: var(--white-color);
+    border: 1px solid var(--danger-color);
+}
+
+.btn-outline {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--medium);
+    color: var(--danger-color);
+    background-color: var(--white-color);
+    border: 1px solid var(--danger-color);
+}
+
+.btn-outline:hover {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--medium);
+    color: var(--black-color);
+    background-color: var(--danger-color);
+    border: 1px solid var(--black-color);
+}
+
+.nav-links {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--regular);
+    color: var(--black-color);
+}
+
+.nav-links:hover {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--regular);
+    color: var(--danger-color);
+}
+
+.animation-word {
+    animation: color-animation 5s linear infinite;
+}
+
+.table-heading {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-xl);
+    font-weight: var(--extraBold);
+    color: var(--black-color);
+}
+
+.table-paragraph {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-lg);
+    font-weight: var(--regular);
+    color: var(--dark-color);
+}
+
+.subHeading {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-xxl);
+    font-weight: var(--medium);
+    color: var(--black-color);
+}
+
+.plan-btn {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--bold);
+    color: var(--primary-color);
+}
+
+.plan-btn:hover {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--bold);
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+
+.footerHeading,
+.comment-heading {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-md);
+    font-weight: var(--medium);
+    color: var(--black-color);
+}
+
+.comment-name {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-xs);
+    font-weight: var(--regular);
+    color: var(--black-color);
+}
+
+.footersubHeading {
+    font-family: var(--ff-primary);
+    font-size: var(--fs-sm);
+    font-weight: var(--regular);
+    color: var(--dark-color);
+}
+
+@keyframes color-animation {
+    50% {
+        color: var(--danger-color);
+    }
+}
+
+@media (min-width:576px) {
+    :root {
+        --fs-xxxl: 36px;
+        --fs-xxl: 26px;
+        --fs-xl: 20px;
+        --fs-lg: 16px;
+        --fs-md: 16px;
+        --fs-sm: 16px;
+        --fs-xs: 14px;
+    }
+}
+
+@media (min-width: 768px) {
+    :root {
+        --fs-xxxl: 40px;
+        --fs-xxl: 30px;
+        --fs-xl: 22px;
+        --fs-lg: 18px;
+        --fs-md: 17px;
+        --fs-sm: 16px;
+        --fs-xs: 14px;
+    }
+}
+
+@media (min-width: 992px) {
+    :root {
+        --fs-xxxl: 50px;
+        --fs-xxl: 35px;
+        --fs-xl: 25px;
+        --fs-lg: 20px;
+        --fs-md: 18px;
+        --fs-sm: 16px;
+        --fs-xs: 14px;
+    }
+}
