@@ -352,7 +352,7 @@ img[alt="map"]:hover {
 .comm-ent {
     min-width: 290px;
     max-height: 230px;
-    border: 2px solid var(--primary-color);
+
     border-radius: 10px;
 }
 
@@ -368,6 +368,14 @@ img[alt="map"]:hover {
     width: 33px;
     height: 33px;
     background-color: var(--primary-color);
+}
+
+.slide-comment {
+    border: 2px solid var(--primary-color);
+}
+
+.slide-comment-1 {
+    border: 2px solid var(--plan-border);
 }
 
 @media (max-width:767px) {
@@ -457,9 +465,10 @@ img[alt="map"]:hover {
     .comm-ent {
         min-width: 400px;
         height: 230px;
-        border: 2px solid var(--primary-color);
+
         border-radius: 10px;
     }
+
 }
 
 @media (min-width:768px) {
