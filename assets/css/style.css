@@ -365,9 +365,9 @@ img[alt="map"]:hover {
 }
 
 .iconBox {
-    width: 33px;
-    height: 33px;
-    background-color: var(--primary-color);
+    width: 55px;
+    height: 55px;
+    background-color: var(--light-color);
 }
 
 .slide-comment {
@@ -558,8 +558,8 @@ img[alt="map"]:hover {
     }
 }
 
-@media (min-width:1180px) {
+@media (min-width:1160px) {
     .w-105 {
-        width: 105%;
+        width: 110%;
     }
 }
