@@ -415,7 +415,7 @@ img[alt="map"]:hover {
         background-color: var(--white-color);
     }
 
-    input[type="checkbox"]:checked~.cente ul {
+    input[type="checkbox"]:checked~ul {
         opacity: 1;
         pointer-events: all;
         top: 0;

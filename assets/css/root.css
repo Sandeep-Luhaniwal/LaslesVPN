@@ -161,9 +161,8 @@
     font-family: var(--ff-primary);
     font-size: var(--fs-sm);
     font-weight: var(--medium);
-    color: var(--black-color);
+    color: var(--white-color);
     background-color: var(--danger-color);
-    border: 1px solid var(--black-color);
 }
 
 .nav-links {
